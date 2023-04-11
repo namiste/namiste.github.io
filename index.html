@@ -82,9 +82,6 @@
             #s,#learn{
               padding-left: 10px;
             }
-            .items{
-                display: flex;
-            }
             #learn{
               margin-top: 40px;
             }
@@ -92,35 +89,37 @@
                 font-weight: lighter;
                 font-size: 1.2rem;
             }
+            .items{
+                display: flex;
+            }
             ._item{
                 display:inline-block;
                 text-align: center;
-                margin-right: 20px;
+                margin: 20px;
                 vertical-align: top;
             }
-            ._item p{}
-            ._item a span{}
-            ._item ul{
-                padding: 0;
-                list-style-type: none;
-            }
-            ._item ul li{
-                display: inline-block;
-                padding-right: 8px;
-                font-size: .9rem;
+            ._item p{
+                margin-top: 8px;
+                font-weight: lighter;
             }
             ._item a{
                 background-color: #aaa;
                 text-decoration: none;
                 display: inline-block;
-                width: 220px;
-                height: 140px;
+                width: 230px;
+                height: 150px;
                 border-radius: 10px;
                 padding: 5px;
             }
             ._item a:hover{
                 box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
                 opacity: 0.8;
+            }
+            ._item a span {
+                display: block;
+                border-radius: 10px 10px 0 0;
+                padding: 2px;
+                background-color: #ddd;
             }
             #contact a{
                 margin-right:30px;
@@ -162,41 +161,24 @@
                             <div class='items'>
                                 <div class='_item'>
                                     <a href=""><span>Timeline</span></a>
-                                    <ul>
-                                        <li>javascript</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                    </ul>
+                                    <p>javascript|HTML|CSS</p>
                                 </div>
                                 <div class='_item'>
-                                    <a href=""></a>
-                                    <h4>Timer</h4>
-                                    <ul>
-                                        <li>‣ HTML</li>
-                                        <li>‣ feature 2</li>
-                                        <li>‣ feature 3</li>
-                                    </ul>
+                                    <a href=""><span>Timer</span></a>
+                                    <p>HTML</p>
                                 </div>
                                 <div class='_item'>
-                                    <a href="link to github repository"></a>
-                                    <h4>Archive</h4>
-                                    <ul>
-                                        <li>MySQL</li>
-                                        <li>PHP</li>
-                                    </ul>
+                                    <a href="link to github repository"><span>Archive</span></a>
+                                    <p>MySQL|PHP</p>
                                 </div>
                                 <div class='_item'>
-                                    <a href=""><span>flashcards</span></a>
+                                    <a href=""><span>Flashcards</span></a>
                                     <p>HTML | CSS | JavaScript</p>
                                 </div>
                                 </div>
                                 <div class='_item'>
                                     <a href=""><span>Shopping Cart</span></a>
-                                    <ul>
-                                        <li>PHP</li>
-                                        <li>AJAX/JavaScript</li>
-                                        <li>MySQL</li>
-                                    </ul>
+                                    <p>PHP|AJAX/JavaScript|MySQL</p>
                                 </div>
                             </div>
                         </div>
